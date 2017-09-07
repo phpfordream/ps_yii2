@@ -1,0 +1,29 @@
+{
+    "name": "phpsmile/psyii2",
+    "description": "this is a phpsmile's psyii2 package",
+    "type": "library",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "phpsmile",
+            "email": "phpsmile@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-mbstring": "*",
+        "ext-ctype": "*",
+        "lib-pcre": "*"
+    },
+    "autoload": {
+        "psr-4": {"yii\\": ""}
+    },
+    "bin": [
+        "yii"
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
